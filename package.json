@@ -1,0 +1,44 @@
+{
+  "name": "mobile-web-react",
+  "version": "1.0.0",
+  "description": "mobile web with react",
+  "main": "index.js",
+  "author": "Colin Gray",
+  "license": "MIT",
+  "scripts": {
+    "start": "babel-node server.js --inspect --trace-warnings --presets es2015,react",
+    "build": "webpack --watch --display-error-details"
+  },
+  "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "express": "^4.15.2",
+    "html-webpack-plugin": "^2.28.0",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.2.0",
+    "koa-mount": "^3.0.0",
+    "koa-request": "^1.0.0",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^6.0.2",
+    "lodash": "^4.17.4",
+    "normalizr": "^3.2.2",
+    "path": "^0.12.7",
+    "react": "^15.5.4",
+    "react-autobind": "^1.0.6",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.2.0",
+    "seamless-immutable": "^7.1.2",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
